@@ -1,0 +1,48 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h3{
+    color: maroon;
+    
+}
+#update{
+    display: none;
+}
+#add{
+    background-color: blue;
+    color: white;
+}
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 70%;   
+}
+table td{
+    border: 5px solid gray;
+    padding: 10px;
+}
+#update{
+    background-color: blue;
+    color: white;
+}
+table tr :nth-child(even){
+    background-color: #f2f2f2;
+    
+}
+table tr :hover
+{
+    background-color: gray;
+}
+input{
+    width:  150px;
+    height: 30px;
+    border: 1px solid blue;
+}
+table td button{
+    background-color:  blue;
+    color: white;
+    width: 60px;
+    height: 20px;
+    border:1px solid blue;
+}
